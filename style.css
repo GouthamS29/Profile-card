@@ -1,5 +1,4 @@
 body{
-    /* background-color: #0081C9; */
     background: url("Introcard-BG.jpg") no-repeat ;
     background-size: 100% 100%;
     display: flex;
@@ -8,10 +7,8 @@ body{
 }
 
 .card-outer{
-    /* align-self: center; */
     width: 800px;
     height: 500px;
-    /* background-color: #F3CCFF; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +21,6 @@ body{
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    /* border: 1px solid black; */
 }
 
 .card:hover{
@@ -42,7 +38,6 @@ body{
 }
 
 .card-front{
-    /* background-color: white; */
     width: 250px;
     height: 350px;
     display: flex;
@@ -50,8 +45,6 @@ body{
 }
 
 .card-back{
-    /* background-color: #F79BD3; */
-    /* background-color: white; */
     width: 250px;
     height: 350px;
     transform: rotateY(180deg);
